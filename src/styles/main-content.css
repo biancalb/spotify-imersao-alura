@@ -2,7 +2,7 @@
 
 .main-container {
     max-width: 80vw;
-    height: 90vh;
+    height: 100vh;
     margin-left: 320px;
     margin-right: 56px;
 }
@@ -92,11 +92,11 @@
 
 /* PLAYLIST */
 .playlist__container {
-    padding: 16px;
+    padding-top: 16px;
     margin: 10px;
     border-radius: 8px;
     background-color: #121212;
-    height: 70vh;
+    height: 68vh;
     color: #fff;
 }
 
