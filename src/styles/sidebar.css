@@ -162,3 +162,36 @@ body {
     padding: 8px;
     border-radius: 20px;
 }
+
+footer {
+    background-image: linear-gradient(to right, #AB2C9A , #5E8AE7);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+}
+
+.footer__premium .text_free-trial{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 0 10px 20px;
+    font-size: 14px;
+}
+
+.footer__premium .text_unlimited-music{
+    font-weight: 500;
+    padding: 0px 0 10px 20px;
+}
+
+footer button {
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius:40px;
+    white-space: nowrap;
+    padding: 0px 30px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
