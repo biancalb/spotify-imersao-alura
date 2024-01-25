@@ -17,7 +17,7 @@ document.addEventListener('input', () => {
     const searchTerm = searchInput.value.toLowerCase();
 
     if (searchTerm === '') {
-        resultPlaylist.classList.add('hidden');
+        resultPlaylist.classList.remove('hidden');
         resultArtists.classList.add('hidden');
         return;
     }
